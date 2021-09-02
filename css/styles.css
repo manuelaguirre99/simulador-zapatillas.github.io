@@ -1,0 +1,165 @@
+
+body{
+    background-color: rgb(85, 4, 4);
+    color: blanchedalmond;
+    text-align: center;
+}
+.header{
+  background-color: rgb(58, 3, 3) ;
+  color: blanchedalmond;
+  height: 50px ;
+  margin: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+.botonTienda{
+  background-color: blanchedalmond;
+  color: rgb(85, 4, 4);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.botonTienda:hover{
+  background-color: rgb(253, 222, 175);
+}
+.botonTienda a{
+  color: rgb(85, 4, 4);
+}
+.botonTienda a:hover{
+  text-decoration: none;
+  color: rgb(85, 4, 4) ;
+}
+.zapatillas h2{
+    font-weight: 500;
+    color: blanchedalmond;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.zapatillasBox{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.zapatillasCards{
+    background-color: rgb(48, 3, 3);
+    width: 250px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+.zapatillasCards h3{
+    font-size: large;
+    color:blanchedalmond ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+.bordes{
+    border-radius: 5px;
+}
+.precio{
+    font-size: small;
+    padding: 5px 5px;
+    color: blanchedalmond;
+}
+
+.botonInfo{
+    background-color:blanchedalmond;
+    color: black;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.5ch;
+    margin: 20px 5px 7px 5px;
+    padding: 4px 10px;
+}
+.botonInfo:hover{
+    background-color: rgb(204, 189, 166) ;
+}
+.botonCompra{
+    background-color: rgb(58, 3, 3) ;
+    color: blanchedalmond;
+}
+.botonCompra:hover{
+    background-color: rgb(31, 30, 30);
+    color: blanchedalmond;
+}
+.imagenesR{
+    width: 300px;
+    height: 225px;
+    border-style: none;
+}
+
+.modalLetras{
+    color: black;
+}
+
+
+.item {
+    border-radius: 5px;
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+
+  
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+
+  .toastFondo{
+    background-color: rgb(58, 3, 3) ;
+    color: blanchedalmond;
+    border:blanchedalmond;
+  }
+
+  .toastBodyB{
+    background-color:rgb(85, 4, 4)  ;
+  }
+
+  
